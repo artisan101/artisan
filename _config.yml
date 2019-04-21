@@ -9,7 +9,7 @@ ga_tracking_code: UA-138701574-1
 p2pu_ga_tracking_code: UA-55722824-1
 
 # Some files we need to exclude, so Github can build the site
-exclude: [Gemfile, Gemfile.lock, README.md]
+exclude: [Gemfile, Gemfile.lock]
 
 defaults:
   -
@@ -32,4 +32,4 @@ prose:
 # this is a hex value http://www.w3schools.com/tags/ref_colorpicker.asp
 jumbotron_color: "#05C6B4"
 jumbotron_background_image: "header.svg"
-jumbotron_image: "box-icon.png"
+jumbotron_image: 
